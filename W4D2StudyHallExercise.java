@@ -25,87 +25,26 @@ System.out.println("s -> View statistics");
 System.out.println("q -> Quit");
 
 		while (true) {
-			/* Read the menu character */
-			menuCharacter = keyboard.nextLine().charAt(0);
-		/* Play the game? */
+			/* Read the menu character */	
 {
+menuCharacter = keyboard.nextLine().charAt(0);
 if (menuCharacter == 'p')
- {
-	{
 	System.out.println("Play the game command recognized.");
 	System.out.println(usersName + ",please enter a command letter followed by a return!");
 	System.out.println("p -> Play the game");
 	System.out.println("s -> View statistics");
 	System.out.println("q -> Quit");
-	
-	
-	menuCharacter = keyboard.nextLine().charAt(0);
-	if (menuCharacter == 's')
-	{
-		System.out.println("View the statistics command recognized.");
-		System.out.println(usersName + ",please enter a command letter followed by a return!");
-		System.out.println("p -> Play the game");
-		System.out.println("s -> View statistics");
-		System.out.println("q -> Quit");
-		
-		menuCharacter = keyboard.nextLine().charAt(0);
-		if (menuCharacter == 'p'){
-			
-			System.out.println("Play the game command recognized.");
-			System.out.println(usersName + ",please enter a command letter followed by a return!");
-			System.out.println("p -> Play the game");
-			System.out.println("s -> View statistics");
-			System.out.println("q -> Quit");
-					
-	menuCharacter = keyboard.nextLine().charAt(0);
-	if (menuCharacter == 'q'){
-		
-		System.out.println("Quit the game command recognized.");
-		System.out.println( "Thanks for playing, "+ usersName);
-		break;
-	}
-	}
-	}
- }
- }
-if (menuCharacter == 's')
-{ 
-	{
-	System.out.println("View the statistics command recognized.");
-	System.out.println(usersName + ",please enter a command letter followed by a return!");
-	System.out.println("p -> Play the game");
-	System.out.println("s -> View statistics");
-	System.out.println("q -> Quit");
-	
-	menuCharacter = keyboard.nextLine().charAt(0);
-	if (menuCharacter == 'p')
-	{
-	System.out.println("Play the game command recognized.");
-	System.out.println(usersName + ",please enter a command letter followed by a return!");
-	System.out.println("p -> Play the game");
-	System.out.println("s -> View statistics");
-	System.out.println("q -> Quit");
-	
-	menuCharacter = keyboard.nextLine().charAt(0);
-	if (menuCharacter == 's'){
-		
-		System.out.println("View the statistics command recognized.");
-		System.out.println(usersName + ",please enter a command letter followed by a return!");
-		System.out.println("p -> Play the game");
-		System.out.println("s -> View statistics");
-		System.out.println("q -> Quit");
-	
-	menuCharacter = keyboard.nextLine().charAt(0);
-	if (menuCharacter == 'q'){
-		
-		System.out.println("Quit the game command recognized.");
-		System.out.println( "Thanks for playing, "+ usersName);
-		break;
-	}
-	}
-	}
-	}
 }
+menuCharacter = keyboard.nextLine().charAt(0);
+if (menuCharacter == 's')
+{
+		System.out.println("View the statistics command recognized.");
+		System.out.println(usersName + ",please enter a command letter followed by a return!");
+		System.out.println("p -> Play the game");
+		System.out.println("s -> View statistics");
+		System.out.println("q -> Quit");
+}
+menuCharacter = keyboard.nextLine().charAt(0);
 if (menuCharacter == 'q')
 {
 	System.out.println("Quit the game command recognized.");
@@ -121,8 +60,6 @@ else {
 	System.out.println("p -> Play the game");
 	System.out.println("s -> View statistics");
 	System.out.println("q -> Quit");
-}
-
 }
 }
 }
