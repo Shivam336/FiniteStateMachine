@@ -13,7 +13,7 @@ public class MeasuredValueRecognizer {
 	 * 
 	 * @author Shivam Singhal
 	 * 
-	 * @version 0.00		2018-02-20	Initial baseline 
+	 * @version 0.00		2018-02-22	Initial baseline 
 	 * 
 	 */
 
